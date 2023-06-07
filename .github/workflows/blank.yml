@@ -1,0 +1,9 @@
+-- Create a table with primary key
+CREATE TABLE fyi_random (
+  id INT,
+  rand_integer INT,
+  rand_number numeric(18,9),
+  rand_datetime DATETIME,
+  rand_string VARCHAR(80)
+);
+GO
