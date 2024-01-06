@@ -1,0 +1,18 @@
+In this project I'll analyze company data and I'll respond on below questions:
+
+1) What is the average revenue among the companies on the list? Distributed by industry?
+
+2) Which industries are most and least represented on the list?
+
+3) Which industries are most and least represented on the list?
+
+4) Do you notice any interesting geographical trends?
+
+5) Which industries recorded the highest average growth rate?
+
+6) Which companies had the largest increase in staff/new hires?
+
+7) Did any companies increase revenue while reducing staff?
+
+A dataset containing information about each company on the INC 5000 list in 2019. 
+Fields include company name, industry, year of incorporation, website and location, as well as 2019 revenue, percentage growth, number of employees (annual growth) and number of years on the list.
