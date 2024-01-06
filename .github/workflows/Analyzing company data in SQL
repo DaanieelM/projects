@@ -29,12 +29,10 @@ from companies
 group by industry
 order by Amount ASC
 
-3) Do you notice any interesting geographical trends?
+3) Which industries recorded the highest average growth rate?
 
-4) Which industries recorded the highest average growth rate?
+4) Which companies had the largest increase in staff/new hires?
 
-5) Which companies had the largest increase in staff/new hires?
-
-6) Did any companies increase revenue while reducing staff?
+5) Did any companies increase revenue while reducing staff?
 
 
