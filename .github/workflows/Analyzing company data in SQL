@@ -11,6 +11,23 @@ Moreover I will respond on below questions:
   group by industry
 
 2) Which industries are most and least represented on the list?
+The most represented on the list:
+
+select 	
+	industry
+	,count(*) as Amount
+from companies
+group by industry 
+order by Amount desc
+
+The least represented on the list:
+
+select 
+	industry
+	,count(*) as Amount
+from companies
+group by industry
+order by Amount ASC
 
 3) Which industries are most and least represented on the list?
 
