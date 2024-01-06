@@ -1,6 +1,14 @@
-In this project I'll analyze company data and I'll respond on below questions:
+In this project I will analyze data for companies. A dataset containing information about each company on the INC 5000 list in 2019.
+Fields include company name, industry, year of incorporation, website and location, as well as 2019 revenue, percentage growth, number of employees (annual growth) and number of years on the list.
+Moreover I will respond on below questions:
 
 1) What is the average revenue among the companies on the list? Distributed by industry?
+
+  select 
+      	industry
+      	,avg(revenue) as Average_revenue
+  from companies 
+  group by industry
 
 2) Which industries are most and least represented on the list?
 
@@ -14,5 +22,4 @@ In this project I'll analyze company data and I'll respond on below questions:
 
 7) Did any companies increase revenue while reducing staff?
 
-A dataset containing information about each company on the INC 5000 list in 2019. 
-Fields include company name, industry, year of incorporation, website and location, as well as 2019 revenue, percentage growth, number of employees (annual growth) and number of years on the list.
+
