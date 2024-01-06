@@ -31,6 +31,13 @@ order by Amount ASC
 
 3) Which industries recorded the highest average growth rate?
 
+select 	
+	industry
+	,avg(growth) as Average_of_growth_rate
+from companies 
+group by industry 
+order by Average_of_growth_rate desc
+
 4) Which companies had the largest increase in staff/new hires?
 
 5) Did any companies increase revenue while reducing staff?
