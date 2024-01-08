@@ -38,8 +38,23 @@ from companies
 group by industry 
 order by Average_of_growth_rate desc
 
-4) Which companies had the largest increase in staff/new hires?
+4) Which ten companies had the largest increase in staff/new hires?
+
+select 
+	name
+	,workers - previous_workers as increase_in_staff
+from companies
+order by increase_in_staff desc
+limit 10
 
 5) Did any companies increase revenue while reducing staff?
+
+select 
+	name
+from companies 
+where 
+previous_workers > workers
+and 
+growth > 0
 
 
