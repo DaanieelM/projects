@@ -19,7 +19,7 @@ FROM PortfolioProject.dbo.Nashvillehousing
 WHERE PropertyAddress is NULL
 ORDER BY ParcelID
 
-SEECT a.ParcelID, a.PropertyAddress, b.ParcelID, b.PropertyAddress, ISNULL(a.PropertyAddress, b.PropertyAddress)
+SELECT a.ParcelID, a.PropertyAddress, b.ParcelID, b.PropertyAddress, ISNULL(a.PropertyAddress, b.PropertyAddress)
 FROM PortfolioProject.dbo.Nashvillehousing a
 JOIN PortfolioProject.dbo.Nashvillehousing b
   on a.ParcelID = b.ParcelID
